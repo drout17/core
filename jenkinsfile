@@ -2,7 +2,7 @@ pipeline {
     agent {label 'maven-first'}
 
     tools {
-        // Install the Maven version configured as "M3" and add it to the path.
+        // Install the Maven version configured as "M3" and add it to the path. test
         maven "Maven-3.8.3"
     }
 
